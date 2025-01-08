@@ -1,16 +1,52 @@
-<html>
-    <body>
-        <script>
-            window.intercomSettings = {
-              api_base: "https://api-iam.intercom.io",
-              app_id: "crzccsbi",
-            };
-          </script>
-          
-          
-          <script>
-            // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/crzccsbi'
-            (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/crzccsbi';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-          </script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    
+   
+</head>
+<script>
+    window.intercomSettings = {
+      api_base: "https://api-iam.intercom.io",
+      app_id: "g6q5w0r6",
+    };
+</script>
+<body>
+    <header class="navbar">
+        <div class="logo">Wolt Support</div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="hamburger" onclick="toggleMobileMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <main>
+        <section style="height: 200vh; padding: 20px;">
+            <!-- Main content goes here -->
+        </section>
+    </main>
+
+    <div class="sticky-bottom">
+        Sticky Bottom Content
+    </div>
+
+    
+</body>
 </html>
+
